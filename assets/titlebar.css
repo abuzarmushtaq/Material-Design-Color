@@ -1,0 +1,39 @@
+#title {
+    -webkit-app-region: drag;
+}
+
+.title-bar-btns {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 500;
+}
+
+.btn-close {
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-app-region: no-drag;
+}
+
+.btn-close:hover {
+    color: red;
+}
+
+.btn-minmize {
+    color: white;
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.btn-minmize:hover {
+    color: darkolivegreen;
+}
+
+.drag {
+    height: 100px;
+}
